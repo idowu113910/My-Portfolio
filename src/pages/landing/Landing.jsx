@@ -19,7 +19,7 @@ import vercel from "../../assets/Vercel.png";
 import vite from "../../assets/vite.png";
 import nodemon from "../../assets/nodemon.png";
 import node from "../../assets/node.png";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
 
 const projectsSeed = [
