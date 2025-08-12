@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Delius&display=swap");
+@import "tailwindcss";
+
+body {
+  font-family: "Delius", cursive;
+}
+
+.whats {
+  padding: 13px;
+  border-radius: 20px;
+  background: transparent;
+  color: #f3feff;
+  cursor: pointer;
+  box-shadow: 0 0 5px #dd02ff, 0 0 10px #9e06e5;
+  transition: all 0.3s ease;
+}
+
+.whats:hover {
+  background: #25d366;
+  color: #000;
+  box-shadow: 0 0 10px #00eeff, 0 0 20px #e3f4f5, 0 0 40px #021213;
+}
+
+.git {
+  padding: 13px;
+  border-radius: 20px;
+  background: transparent;
+  color: #f3feff;
+  cursor: pointer;
+  box-shadow: 0 0 5px #dd02ff, 0 0 10px #9e06e5;
+  transition: all 0.3s ease;
+}
+
+.git:hover {
+  background: #ffff;
+  color: #000;
+  box-shadow: 0 0 10px #a004ef, 0 0 20px #e3f4f5, 0 0 40px #021213;
+}
+
+.linked {
+  padding: 13px;
+  border-radius: 20px;
+  background: transparent;
+  color: #f3feff;
+  cursor: pointer;
+  box-shadow: 0 0 5px #dd02ff, 0 0 10px #9e06e5;
+  transition: all 0.3s ease;
+}
+
+.linked:hover {
+  background: #0077b5;
+  color: #000;
+  box-shadow: 0 0 10px #00eeff, 0 0 20px #e3f4f5, 0 0 40px #021213;
+}
+
+.insta {
+  padding: 13px;
+  border-radius: 20px;
+  background: transparent;
+  color: #f3feff;
+  cursor: pointer;
+  box-shadow: 0 0 5px #dd02ff, 0 0 10px #9e06e5;
+  transition: all 0.3s ease;
+}
+
+.insta:hover {
+  background: red;
+  color: #000;
+  box-shadow: 0 0 10px #00eeff, 0 0 20px #e3f4f5, 0 0 40px #021213;
+}
+
+.glowing-button-contact {
+  padding: 6px 12px;
+  background: transparent;
+  color: #ffff;
+  border: 2px solid #9508db;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 5px #2e0945, 0 0 10px #c46bff;
+  transition: all 0.3s ease;
+}
+
+.glowing-button-contact:hover {
+  background: #ad01f1;
+  color: #000;
+  box-shadow: 0 0 10px #00eeff, 0 0 20px #300151, 0 0 40px #bc06c9;
+}
+
+.typing-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.typing-text {
+  font-size: 26px;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid #7600d7;
+  animation: typing 4s steps(6) infinite, blink 1.7s step-end infinite alternate;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes bounceCustom {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.download {
+  animation: bounceCustom 1s infinite;
+}
