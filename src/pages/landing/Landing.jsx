@@ -278,7 +278,7 @@ export default function Portfolio() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-white to-gray-50 dark:from-black dark:to-purple-800 text-gray-900 dark:text-gray-100 transition-colors duration-100">
+    <div className="min-h-screen bg-gradient-to-r from-white to-gray-50 dark:from-black dark:to-purple-800 text-gray-900 dark:text-gray-100 transition-colors duration-100 overflow-x-hidden">
       {/* Top floating controls */}
       <div className="fixed top-4 right-4 flex items-center gap-3 z-50">
         <a
@@ -516,7 +516,7 @@ export default function Portfolio() {
             </span>
             <p className="ml-[-39px] mt-[9px]  sm:ml-[-44px]">2 years+</p>
           </div>
-          <div className="flex items-center flex-cols sm:ml-[120px] md:ml-[60px] java">
+          <div className="flex items-center flex-cols sm:ml-[120px] ml-[0px] md:ml-[60px] java">
             {" "}
             <span className="px-2 py-1 rounded flex  gap-1 mb-[4px]">
               <img
