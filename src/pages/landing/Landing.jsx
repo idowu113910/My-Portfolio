@@ -15,7 +15,7 @@ import mongo from "../../assets/mongodb.png";
 import figma from "../../assets/figma.png";
 import python from "../../assets/python.png";
 import postman from "../../assets/postman.png";
-import vercel from "../../assets/vercel.png";
+import vercel from "../../assets/Vercel.png";
 import vite from "../../assets/vite.png";
 import nodemon from "../../assets/nodemon.png";
 import node from "../../assets/node.png";
