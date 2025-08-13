@@ -22,7 +22,7 @@ import node from "../../assets/node.png";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
 import SplashCursor from "../../components/SplashCursor";
-
+import TextType from "../../components/TextType";
 
 const projectsSeed = [
   {
@@ -302,9 +302,19 @@ export default function Portfolio() {
               </div>
               <div>
                 <h1 className="text-xl font-semibold">Ismail Timileyin</h1>
-                <p className="text-lg text-gray-600 dark:text-gray-300">
-                  Full-stack Web Developer · Software Engineer
-                </p>
+               
+                  <TextType
+                    text={[
+                      "Full-stack Web Developer ",
+                      "Software Engineer",
+                      "",
+                    ]}
+                    typingSpeed={75}
+                    pauseDuration={1500}
+                    showCursor={true}
+                    cursorCharacter="|"
+                  />
+               
               </div>
             </div>
 
@@ -448,6 +458,7 @@ export default function Portfolio() {
             className="bg-white dark:bg-gray-900/40 p-6 rounded-2xl border border-gray-100 dark:border-gray-800"
           >
             <h3 className="text-xl font-bold">About</h3>
+
             <p className="mt-3 text-gray-700 dark:text-gray-300">
               I’m a Computer science graduate, a Full-stack web developer and a
               software engineer who loves turning ideas into production-ready
