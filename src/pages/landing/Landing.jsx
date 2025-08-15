@@ -301,20 +301,15 @@ export default function Portfolio() {
                 <img src={tisetiwa} alt="" />
               </div>
               <div>
-                <h1 className="text-xl font-semibold">Ismail Timileyin</h1>
-               
-                  <TextType
-                    text={[
-                      "Full-stack Web Developer ",
-                      "Software Engineer",
-                      "",
-                    ]}
-                    typingSpeed={75}
-                    pauseDuration={1500}
-                    showCursor={true}
-                    cursorCharacter="|"
-                  />
-               
+                <h1 className="text-xl font-semibold">Idowu Daniel</h1>
+
+                <TextType
+                  text={["Full-stack Web Developer ", "Software Engineer", ""]}
+                  typingSpeed={75}
+                  pauseDuration={1500}
+                  showCursor={true}
+                  cursorCharacter="|"
+                />
               </div>
             </div>
 
@@ -362,7 +357,7 @@ export default function Portfolio() {
               <h2 className="typing-text text-3xl sm:text-4xl font-extrabold leading-tight">
                 Hi, I'm{" "}
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-pink-500">
-                  Ismail Timileyin
+                  Idowu Daniel
                 </span>
               </h2>
               <p className="mt-3 text-lg text-gray-700 dark:text-gray-300">
@@ -379,7 +374,7 @@ export default function Portfolio() {
                 </a>
                 <a
                   href={mycv}
-                  download="ismailcv.pdf"
+                  download="idowuDaniel`s cv.pdf"
                   className="inline-flex items-center gap-2 px-4 py-2 border rounded-md text-sm"
                 >
                   Download CV
@@ -391,7 +386,7 @@ export default function Portfolio() {
 
               <div className="flex items-center gap-3 text-sm mt-6">
                 <a
-                  href="https://github.com/TiseTiwa"
+                  href="https://github.com/idowu113910"
                   target="_blank"
                   rel="noreferrer"
                   className="w-[40px] h-[40px] git"
@@ -399,7 +394,7 @@ export default function Portfolio() {
                   <FiGithub />
                 </a>
                 <a
-                  href="https://linkedin.com/in/ismail-timileyin"
+                  href="https://www.linkedin.com/in/idowu-daniel-omotesho-144a17363?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                   target="_blank"
                   rel="noreferrer"
                   className="w-[40px] h-[40px] linked "
@@ -407,17 +402,17 @@ export default function Portfolio() {
                   <SlSocialLinkedin />
                 </a>
 
-                <a
+                {/* <a
                   href="https://www.instagram.com/tisetiwa_fit/"
                   target="_blank"
                   rel="noreferrer"
                   className="w-[40px] h-[40px] insta"
                 >
                   <FaInstagram />
-                </a>
+                </a> */}
 
                 <a
-                  href="https://wa.me/2347073558984"
+                  href="https://wa.me/2349121801655"
                   target="_blank"
                   rel="noreferrer"
                   className="w-[40px] h-[40px] whats"
@@ -460,12 +455,9 @@ export default function Portfolio() {
             <h3 className="text-xl font-bold">About</h3>
 
             <p className="mt-3 text-gray-700 dark:text-gray-300">
-              I’m a Computer science graduate, a Full-stack web developer and a
-              software engineer who loves turning ideas into production-ready
-              web applications. I care about performance, accessibility, and
-              delightful user experiences. I’m currently exploring opportunities
-              in mobile app development to expand my skills and create solutions
-              that make everyday life easier.
+              A Full-stack web developer and a software engineer who loves
+              turning ideas into production-ready web applications. I care about
+              performance, accessibility, and delightful user experiences.
             </p>
 
             {/* <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-3">
@@ -496,7 +488,10 @@ export default function Portfolio() {
           </div> */}
           </section>
           <h3 className="text-xl font-bold mb-[-10px] ml-[20px]">Skills</h3>
-          <div className="mt-6 flex sm:grid sm:grid-cols-4 sm:gap-2 flex-wrap gap-1 text-[10px] sm:text-xs text-gray-600 dark:text-gray-300">
+          <div
+            className="mt-6 flex sm:grid sm:grid-cols-4 sm:gap-2 flex-wrap gap-1 text-[10px] sm:text-xs
+           text-gray-600 dark:text-gray-300"
+          >
             <div className="flex items-center flex-cols html">
               <span className="px-2 py-1 rounded flex gap-1">
                 <img
@@ -733,7 +728,7 @@ export default function Portfolio() {
         </main>
 
         <footer className="max-w-5xl mx-auto px-6 py-6 text-center text-sm text-gray-500">
-          © {new Date().getFullYear()} Ismail Timileyin — Built with ❤️ •{" "}
+          © {new Date().getFullYear()} Idowu Daniel Omotesho — Built with ❤️ •{" "}
           <a href="#" className="underline">
             Privacy
           </a>
