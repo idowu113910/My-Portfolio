@@ -5,8 +5,8 @@ import { SlSocialLinkedin } from "react-icons/sl";
 import { FiGithub } from "react-icons/fi";
 import tisetiwa from "../../assets/Tisebratz.png";
 import { GoDownload } from "react-icons/go";
-import mycv from "../../assets/ismailcv.pdf";
 import ScrollReveal from "scrollreveal";
+
 import react from "../../assets/react.png";
 import java from "../../assets/javascript.png";
 import css from "../../assets/css.png";
@@ -29,36 +29,36 @@ const projectsSeed = [
     id: 1,
     title: "E-commerce Website",
     desc: "Client-side dessert ordering demo — product list, add-to-cart, cart totals and order confirmation. Built with vanilla JavaScript, HTML and CSS.",
-    demo: "https://tise-tiwa-e-commerce-order-desert-a.vercel.app/",
-    github: "https://github.com/TiseTiwa/E-Commerce-Order-Desert-App",
+    demo: "https://e-commerce-xi-blue-29.vercel.app/",
+    github: "https://github.com/idowu113910/E-commerce.git",
   },
   {
     id: 2,
     title: "Goal-Web App",
     desc: "React + Vite single-page app for tracking goals — frontend built with React and Vite (see repo for components and routing).",
-    demo: "https://goal-web-front-end.vercel.app",
-    github: "https://github.com/TiseTiwa/Goal-web-Front-End",
+    demo: "",
+    github: "https://github.com/idowu113910/Mpay-m.git",
   },
   {
     id: 3,
     title: "World Info App",
     desc: "React + Vite app that displays world/country information — frontend-ready project with a React component structure (see repo for data sources).",
-    demo: "https://world-info-app-eight.vercel.app",
-    github: "https://github.com/TiseTiwa/World-Info-App",
+    demo: "https://world-app-chi.vercel.app/",
+    github: "https://github.com/idowu113910/World-app.git",
   },
   {
     id: 4,
-    title: "Calculator App",
-    desc: "A lightweight client-side calculator implemented with vanilla JavaScript, HTML and CSS — supports basic arithmetic and a clean UI.",
-    demo: "https://tise-tiwa-s-calculator-app.vercel.app",
-    github: "https://github.com/TiseTiwa/Tise-Tiwa-s-Calculator-App",
+    title: "Space-Tourism App",
+    desc: "A lightweight client-side space tourism implemented with REACT.JS, HTML and CSS — supports basic arithmetic and a clean UI.",
+    demo: "https://space-tourism-5oen.vercel.app/",
+    github: "https://github.com/idowu113910/Space-tourism.git",
   },
   {
     id: 5,
-    title: "Bible Quiz App",
-    desc: "Interactive browser quiz with client-side scoring and sound effects — questions, high-score stored in browser, start/next/try again flows",
-    demo: "https://tise-tiwa-s-bible-quiz.vercel.app",
-    github: "https://github.com/TiseTiwa/Tise-Tiwa-s-Bible-Quiz",
+    title: "Wise Advice App",
+    desc: "Client side wise Advice delivers thoughtful and inspiring tips at the click of a button — a simple way to discover fresh perspectives and daily guidance.",
+    demo: "https://wise-9iod.vercel.app/",
+    github: "https://github.com/idowu113910/wise.git",
   },
 
   {
@@ -283,12 +283,16 @@ export default function Portfolio() {
     <div>
       <SplashCursor />
 
-      <div className="min-h-screen bg-gradient-to-r from-white to-gray-50 dark:from-black dark:to-purple-800 text-gray-900 dark:text-gray-100 transition-colors duration-100 overflow-x-hidden">
+      <div
+        className="min-h-screen bg-gradient-to-r from-white to-gray-50 dark:from-black dark:to-purple-800 text-gray-900
+       dark:text-gray-100 transition-colors duration-100 overflow-x-hidden"
+      >
         {/* Top floating controls */}
         <div className="fixed top-4 right-4 flex items-center gap-3 z-50">
           <a
             href="#contact"
-            className="glowing-button-contact hidden inline-block px-3 py-2 rounded-md bg-indigo-600 shadow-[0_0_15px_5px_rgba(100,40,0,0.7)] drop-shadow-[0_0_15px_rgba(255,255,0,0.7)] text-white font-medium shadow"
+            className="glowing-button-contact hidden inline-block px-3 py-2 rounded-md bg-indigo-600 shadow-[0_0_15px_5px_rgba(100,40,0,0.7)] 
+            drop-shadow-[0_0_15px_rgba(255,255,0,0.7)] text-white font-medium shadow"
           >
             Contact
           </a>
@@ -297,11 +301,9 @@ export default function Portfolio() {
         <header className="max-w-5xl mx-auto px-6 pt-12 pb-8">
           <nav className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="w-15 h-15 rounded-full bg-gradient-to-br from-indigo-500 via-pink-500 to-yellow-400 shadow-md flex items-center justify-center text-white font-semibold">
-                <img src={tisetiwa} alt="" />
-              </div>
+              <div></div>
               <div>
-                <h1 className="text-xl font-semibold">Idowu Daniel</h1>
+                <h1 className="text-2xl font-semibold">Idowu Daniel</h1>
 
                 <TextType
                   text={["Full-stack Web Developer ", "Software Engineer", ""]}
@@ -373,8 +375,9 @@ export default function Portfolio() {
                   View projects
                 </a>
                 <a
-                  href={mycv}
-                  download="idowuDaniel`s cv.pdf"
+                  href="/cv-2025.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-4 py-2 border rounded-md text-sm"
                 >
                   Download CV
@@ -644,7 +647,8 @@ export default function Portfolio() {
               {projects.map((p) => (
                 <article
                   key={p.id}
-                  className="rounded-xl p-4 border border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-900/50 shadow hover:shadow-lg transition"
+                  className="rounded-xl p-4 border border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-900/50 shadow 
+                  hover:shadow-lg transition"
                 >
                   <h4 className="font-semibold text-lg">{p.title}</h4>
                   <p className="mt-2 text-sm text-gray-600 dark:text-gray-300">
