@@ -36,8 +36,8 @@ const projectsSeed = [
     id: 2,
     title: "Goal-Web App",
     desc: "React + Vite single-page app for tracking goals — frontend built with React and Vite (see repo for components and routing).",
-    demo: "",
-    github: "https://github.com/idowu113910/Mpay-m.git",
+    demo: "https://goal-wfb.vercel.app/",
+    github: "https://github.com/idowu113910/Goal-WFB.git",
   },
   {
     id: 3,
