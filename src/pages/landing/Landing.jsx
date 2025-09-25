@@ -3,10 +3,8 @@ import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { SlSocialLinkedin } from "react-icons/sl";
 import { FiGithub } from "react-icons/fi";
-import tisetiwa from "../../assets/Tisebratz.png";
 import { GoDownload } from "react-icons/go";
 import ScrollReveal from "scrollreveal";
-
 import react from "../../assets/react.png";
 import java from "../../assets/javascript.png";
 import css from "../../assets/css.png";
@@ -21,8 +19,7 @@ import nodemon from "../../assets/nodemon.png";
 import node from "../../assets/node.png";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
-import SplashCursor from "../../components/SplashCursor";
-import TextType from "../../components/TextType";
+import TypingSwitcher from "../TypingSwitcher";
 
 const projectsSeed = [
   {
@@ -63,10 +60,10 @@ const projectsSeed = [
 
   {
     id: 6,
-    title: "Random Bible verse generator",
-    desc: "Client-side random verse generator — simple HTML/JS tool that fetches or rotates stored verses and displays them in the browser..",
-    demo: "https://advice-generator-two-woad.vercel.app",
-    github: "https://github.com/TiseTiwa/Random-Bible-Verse-Generator",
+    title: "Leadway Full Stack Web App",
+    desc: "Leadway is a full-stack MERN application featuring secure user authentication with JWT, sign-up/login workflows, and email verification, backend by MongoDB and deployed with a responsive React frontend.",
+    demo: "https://leadway-frontend-yqdj.vercel.app/",
+    github: "https://github.com/idowu113910/Leadway-Frontend.git",
   },
 ];
 
@@ -281,8 +278,6 @@ export default function Portfolio() {
 
   return (
     <div>
-      <SplashCursor />
-
       <div
         className="min-h-screen bg-gradient-to-r from-white to-gray-50 dark:from-black dark:to-purple-800 text-gray-900
        dark:text-gray-100 transition-colors duration-100 overflow-x-hidden"
@@ -304,9 +299,8 @@ export default function Portfolio() {
               <div></div>
               <div>
                 <h1 className="text-2xl font-semibold">Idowu Daniel</h1>
-
-                <TextType
-                  text={["Full-stack Web Developer ", "Software Engineer", ""]}
+                <TypingSwitcher
+                  texts={["Full-stack Web Developer ", "Software Engineer", ""]}
                   typingSpeed={75}
                   pauseDuration={1500}
                   showCursor={true}
@@ -378,7 +372,7 @@ export default function Portfolio() {
                   href="/cv-2025.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-4 py-2 border rounded-md text-sm"
+                  className="inline-flex items-center gap-2 px-4 py-2 border rounded-md text-sm transform transition-transform duration-200 ease-out hover:scale-110 motion-reduce:transition-none"
                 >
                   Download CV
                   <span className="download">
@@ -392,7 +386,7 @@ export default function Portfolio() {
                   href="https://github.com/idowu113910"
                   target="_blank"
                   rel="noreferrer"
-                  className="w-[40px] h-[40px] git"
+                  className=" git inline-flex items-center justify-center w-[40px] h-[40px] rounded-full transform transition-transform duration-200 ease-out hover:scale-150 motion-reduce:transition-none focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 "
                 >
                   <FiGithub />
                 </a>
@@ -400,7 +394,7 @@ export default function Portfolio() {
                   href="https://www.linkedin.com/in/idowu-daniel-omotesho-144a17363?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                   target="_blank"
                   rel="noreferrer"
-                  className="w-[40px] h-[40px] linked "
+                  className="linked inline-flex items-center justify-center w-[40px] h-[40px] rounded-full transform transition-transform duration-200 ease-out hover:scale-150 motion-reduce:transition-none focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 "
                 >
                   <SlSocialLinkedin />
                 </a>
@@ -418,9 +412,10 @@ export default function Portfolio() {
                   href="https://wa.me/2349121801655"
                   target="_blank"
                   rel="noreferrer"
-                  className="w-[40px] h-[40px] whats"
+                  aria-label="Chat on WhatsApp"
+                  className="whats inline-flex items-center justify-center w-[40px] h-[40px] rounded-full transform transition-transform duration-200 ease-out hover:scale-150 motion-reduce:transition-none focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
                 >
-                  <FaWhatsapp />
+                  <FaWhatsapp className="text-lg" />
                 </a>
               </div>
             </div>
@@ -458,9 +453,13 @@ export default function Portfolio() {
             <h3 className="text-xl font-bold">About</h3>
 
             <p className="mt-3 text-gray-700 dark:text-gray-300">
-              A Full-stack web developer and a software engineer who loves
-              turning ideas into production-ready web applications. I care about
-              performance, accessibility, and delightful user experiences.
+              I’m a full-stack web developer and software engineer who turns
+              ideas into production-ready web applications. I care deeply about
+              performance, accessibility, and creating smooth, delightful user
+              experiences. I’m experienced in building authentication and
+              backend systems, and I’m now an aspiring blockchain developer —
+              actively exploring Web3 tools and planning to ship decentralized
+              apps in the near future.
             </p>
 
             {/* <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-3">
