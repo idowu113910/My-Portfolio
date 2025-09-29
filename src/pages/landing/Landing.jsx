@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { SlSocialLinkedin } from "react-icons/sl";
 import { FiGithub } from "react-icons/fi";
@@ -399,14 +398,7 @@ export default function Portfolio() {
                   <SlSocialLinkedin />
                 </a>
 
-                {/* <a
-                  href="https://www.instagram.com/tisetiwa_fit/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="w-[40px] h-[40px] insta"
-                >
-                  <FaInstagram />
-                </a> */}
+             
 
                 <a
                   href="https://wa.me/2349121801655"
@@ -426,19 +418,14 @@ export default function Portfolio() {
                 <p className="text-sm text-gray-600 dark:text-gray-300">
                   Available for freelance & remote roles · Open to collaboration
                 </p>
-                <div className="mt-4 grid grid-cols-2 gap-4">
-                  <div className="p-3 bg-white dark:bg-gray-800/60 rounded-lg text-center">
-                    <div className="three text-2xl font-semibold">3+</div>
+                <div className="mt-4 grid grid-cols-2 gap-4 ">
+                  <div className="p-3 bg-white dark:bg-gray-800/60 rounded-lg text-center ">
+                    <div className="three text-2xl font-semibold">4+</div>
                     <div className="text-xs text-gray-500 dark:text-gray-300">
                       Years experience
                     </div>
                   </div>
-                  <div className="p-3 bg-white dark:bg-gray-800/60 rounded-lg text-center">
-                    <div className="twenty text-2xl font-semibold">10+</div>
-                    <div className="text-xs text-gray-500 dark:text-gray-300">
-                      Completed projects
-                    </div>
-                  </div>
+                 
                 </div>
               </div>
             </div>
@@ -462,34 +449,9 @@ export default function Portfolio() {
               apps in the near future.
             </p>
 
-            {/* <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-3">
-            <div className="text-sm">
-              <div className="font-semibold">Languages</div>
-              <div className="text-gray-600 dark:text-gray-300 text-xs">
-                JavaScript, TypeScript
-              </div>
-            </div>
-            <div className="text-sm">
-              <div className="font-semibold">Frontend</div>
-              <div className="text-gray-600 dark:text-gray-300 text-xs">
-                React, Next.js, Tailwind
-              </div>
-            </div>
-            <div className="text-sm">
-              <div className="font-semibold">Backend</div>
-              <div className="text-gray-600 dark:text-gray-300 text-xs">
-                Node, Express, GraphQL
-              </div>
-            </div>
-            <div className="text-sm">
-              <div className="font-semibold">DB & Infra</div>
-              <div className="text-gray-600 dark:text-gray-300 text-xs">
-                MongoDB, Postgres, Vercel
-              </div>
-            </div>
-          </div> */}
+           
           </section>
-          <h3 className="text-xl font-bold mb-[-10px] ml-[20px]">Skills</h3>
+          <h3 className="text-xl font-bold mb-[-10px] ml-[20px]">Tech Stacks</h3>
           <div
             className="mt-6 flex sm:grid sm:grid-cols-4 sm:gap-2 flex-wrap gap-1 text-[10px] sm:text-xs
            text-gray-600 dark:text-gray-300"
@@ -539,7 +501,7 @@ export default function Portfolio() {
                 />{" "}
                 JavaScript
               </span>
-              <p className="ml-[-54px] mt-[11px]  sm:ml-[-64px]">2 years+</p>
+              <p className="ml-[-54px] mt-[11px]  sm:ml-[-64px]"></p>
             </div>
             <div className="flex items-center flex-cols mongo ">
               {" "}
