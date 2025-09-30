@@ -9,7 +9,7 @@ import java from "../../assets/javascript.png";
 import css from "../../assets/css.png";
 import html from "../../assets/html.png";
 import mongo from "../../assets/mongodb.png";
-import figma from "../../assets/figma.png";
+import figma from "../../assets/EX.png";
 import python from "../../assets/python.png";
 import postman from "../../assets/postman.png";
 import vercel from "../../assets/Vercel.png";
@@ -356,8 +356,9 @@ export default function Portfolio() {
                 </span>
               </h2>
               <p className="mt-3 text-lg text-gray-700 dark:text-gray-300">
-                Full-stack web developer & software engineer building clean,
-                accessible, and delightful web experiences.
+                Full-stack web developer & software engineer. I'm all about
+                clean code, thoughtful design, and making sure everyone can
+                access what I build.
               </p>
 
               <div className="mt-6 flex gap-3">
@@ -398,8 +399,6 @@ export default function Portfolio() {
                   <SlSocialLinkedin />
                 </a>
 
-             
-
                 <a
                   href="https://wa.me/2349121801655"
                   target="_blank"
@@ -425,7 +424,13 @@ export default function Portfolio() {
                       Years experience
                     </div>
                   </div>
-                 
+
+                  <div className="p-3 bg-white dark:bg-gray-800/60 rounded-lg text-center">
+                    <div className="twenty text-2xl font-semibold">10+</div>
+                    <div className="text-xs text-gray-500 dark:text-gray-300">
+                      Completed projects
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -437,21 +442,23 @@ export default function Portfolio() {
             id="about"
             className="bg-white dark:bg-gray-900/40 p-6 rounded-2xl border border-gray-100 dark:border-gray-800"
           >
-            <h3 className="text-xl font-bold">About</h3>
+            <h3 className="text-xl font-bold">About </h3>
 
             <p className="mt-3 text-gray-700 dark:text-gray-300">
-              I’m a full-stack web developer and software engineer who turns
-              ideas into production-ready web applications. I care deeply about
-              performance, accessibility, and creating smooth, delightful user
-              experiences. I’m experienced in building authentication and
-              backend systems, and I’m now an aspiring blockchain developer —
-              actively exploring Web3 tools and planning to ship decentralized
-              apps in the near future.
+              I'm a fullstack developer who builds websites and apps from the
+              ground up. I handle everything—the pretty stuff you see and click
+              on, and all the behind-the-scenes magic that makes it work.      I got
+              into coding because I love making things, and web development lets
+              me do that every day. There's something satisfying about starting
+              with an idea and turning it into something real that people can
+              use. When I'm not at my computer, I'm usually thinking about my
+              next project, grabbing coffee, or convincing myself to take an
+              actual break (still working on that one).
             </p>
-
-           
           </section>
-          <h3 className="text-xl font-bold mb-[-10px] ml-[20px]">Tech Stacks</h3>
+          <h3 className="text-xl font-bold mb-[-10px] ml-[20px]">
+            Tech Stacks
+          </h3>
           <div
             className="mt-6 flex sm:grid sm:grid-cols-4 sm:gap-2 flex-wrap gap-1 text-[10px] sm:text-xs
            text-gray-600 dark:text-gray-300"
@@ -465,7 +472,7 @@ export default function Portfolio() {
                 />{" "}
                 HTML
               </span>
-              <p className="ml-[-35px] mt-[7px] sm:ml-[-40px]">3 years+</p>
+              <p className="ml-[-35px] mt-[7px] sm:ml-[-40px]">4 years+</p>
             </div>
             <div className="flex items-center flex-cols sm:ml-[60px] css">
               <span className="px-2 py-1 rounded flex gap-1">
@@ -477,7 +484,7 @@ export default function Portfolio() {
                 CSS
               </span>
               <p className="ml-[-26px] mt-[9px] sm:mt-[11px] sm:ml-[-30px]">
-                3 years+
+                4 years+
               </p>
             </div>
             <div className="flex items-center flex-cols sm:ml-[80px] react">
@@ -489,7 +496,7 @@ export default function Portfolio() {
                 />{" "}
                 REACT
               </span>
-              <p className="ml-[-39px] mt-[9px]  sm:ml-[-44px]">2 years+</p>
+              <p className="ml-[-39px] mt-[9px]  sm:ml-[-44px]">4 years+</p>
             </div>
             <div className="flex items-center flex-cols sm:ml-[120px] ml-[0px] md:ml-[60px] java">
               {" "}
@@ -501,7 +508,7 @@ export default function Portfolio() {
                 />{" "}
                 JavaScript
               </span>
-              <p className="ml-[-54px] mt-[11px]  sm:ml-[-64px]"></p>
+              <p className="ml-[-54px] mt-[11px]  sm:ml-[-64px]">4 years+</p>
             </div>
             <div className="flex items-center flex-cols mongo ">
               {" "}
@@ -513,7 +520,7 @@ export default function Portfolio() {
                 />{" "}
                 MongoDB
               </span>
-              <p className="ml-[-52px] mt-[12px] sm:ml-[-60px]">2 years+</p>
+              <p className="ml-[-52px] mt-[12px] sm:ml-[-60px]">4 years+</p>
             </div>
             <div className="flex items-center flex-cols sm:ml-[55px] figma">
               {" "}
@@ -523,9 +530,9 @@ export default function Portfolio() {
                   alt=""
                   className="w-[23px] h-[23px] sm:w-[45px] sm:h-[45px]"
                 />{" "}
-                FIGMA
+                Express
               </span>
-              <p className="ml-[-40px] mt-[12px]  sm:ml-[-46px]">2 years+</p>
+              <p className="ml-[-40px] mt-[12px]  sm:ml-[-46px]">4 years+</p>
             </div>
             <div className="flex items-center flex-cols sm:ml-[75px] node">
               <span className="px-2 py-1 rounded flex gap-1 ml-[2px]">
@@ -536,7 +543,7 @@ export default function Portfolio() {
                 />{" "}
                 NODE.js
               </span>
-              <p className="ml-[-44px] mt-[12px]  sm:ml-[-50px] ">2 years+</p>
+              <p className="ml-[-44px] mt-[12px]  sm:ml-[-50px] ">4 years+</p>
             </div>
             <div className="flex items-center flex-cols sm:ml-[120px] md:ml-[60px] postman">
               {" "}
@@ -549,20 +556,8 @@ export default function Portfolio() {
                 POSTMAN
               </span>
               <p className="ml-[-55px] mt-[12px] sm:mt-[10px]  sm:ml-[-64px]">
-                2 years+
+                4 years+
               </p>
-            </div>
-            <div className="flex items-center flex-cols python">
-              {" "}
-              <span className="px-2 py-1 rounded flex gap-1">
-                <img
-                  src={python}
-                  alt=""
-                  className="w-[25px] h-[25px] sm:w-[45px] sm:h-[45px]"
-                />{" "}
-                PYTHON
-              </span>
-              <p className="ml-[-47px] mt-[9px] sm:ml-[-54px]">1 year+</p>
             </div>
             <div className="flex items-center flex-cols sm:ml-[50px] vite">
               {" "}
@@ -574,7 +569,7 @@ export default function Portfolio() {
                 />{" "}
                 VITE
               </span>
-              <p className="ml-[-29px] mt-[12px] sm:ml-[-34px]">2 years+</p>
+              <p className="ml-[-29px] mt-[12px] sm:ml-[-34px]">4 years+</p>
             </div>
 
             <div className="flex items-center flex-cols sm:ml-[75px] vercel">
@@ -587,7 +582,7 @@ export default function Portfolio() {
                 />{" "}
                 VERCEL
               </span>
-              <p className="ml-[-44px] mt-[9px] sm:ml-[-50px]">2 years+</p>
+              <p className="ml-[-44px] mt-[9px] sm:ml-[-50px]">4 years+</p>
             </div>
             <div className="flex items-center flex-cols sm:ml-[120px] md:ml-[60px] nodemon">
               <span className="px-2 py-1 rounded flex gap-1 ml-[-4px]">
@@ -598,7 +593,7 @@ export default function Portfolio() {
                 />{" "}
                 NODEMON
               </span>
-              <p className="ml-[-59px] mt-[12px] sm:ml-[-68px]">2 years+</p>
+              <p className="ml-[-59px] mt-[12px] sm:ml-[-68px]">4 years+</p>
             </div>
           </div>
 
@@ -693,10 +688,7 @@ export default function Portfolio() {
         </main>
 
         <footer className="max-w-5xl mx-auto px-6 py-6 text-center text-sm text-gray-500">
-          © {new Date().getFullYear()} Idowu Daniel Omotesho — Built with ❤️ •{" "}
-          <a href="#" className="underline">
-            Privacy
-          </a>
+          © {new Date().getFullYear()} Idowu Daniel Omotesho
         </footer>
       </div>
     </div>
